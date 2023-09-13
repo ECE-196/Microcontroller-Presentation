@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40A3EF6F288395BF00CB303F /* GuidedCodeEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3EF6E288395BF00CB303F /* GuidedCodeEditorApp.swift */; };
+		401A70D12884B16000D892C1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401A70D02884B16000D892C1 /* ModelData.swift */; };
+		401A70D42884B4BB00D892C1 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401A70D32884B4BB00D892C1 /* Title.swift */; };
+		401A70D62884B53400D892C1 /* Which.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401A70D52884B53400D892C1 /* Which.swift */; };
+		401A70D82884B54200D892C1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401A70D72884B54200D892C1 /* Utils.swift */; };
+		401A70DA2884CCDB00D892C1 /* Why.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401A70D92884CCDB00D892C1 /* Why.swift */; };
+		40A3EF6F288395BF00CB303F /* MicrocontrollerPresentationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3EF6E288395BF00CB303F /* MicrocontrollerPresentationApp.swift */; };
 		40A3EF71288395BF00CB303F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3EF70288395BF00CB303F /* ContentView.swift */; };
 		40A3EF73288395C200CB303F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A3EF72288395C200CB303F /* Assets.xcassets */; };
 		40A3EF76288395C200CB303F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A3EF75288395C200CB303F /* Preview Assets.xcassets */; };
+		40E9FF5628F798EA007DF79D /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9FF5528F798EA007DF79D /* Resources.swift */; };
+		40E9FF5828F8547E007DF79D /* What.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E9FF5728F8547E007DF79D /* What.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		40A3EF6B288395BF00CB303F /* GuidedCodeEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuidedCodeEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40A3EF6E288395BF00CB303F /* GuidedCodeEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedCodeEditorApp.swift; sourceTree = "<group>"; };
+		401A70D02884B16000D892C1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		401A70D32884B4BB00D892C1 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		401A70D52884B53400D892C1 /* Which.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Which.swift; sourceTree = "<group>"; };
+		401A70D72884B54200D892C1 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		401A70D92884CCDB00D892C1 /* Why.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Why.swift; sourceTree = "<group>"; };
+		40A3EF6B288395BF00CB303F /* MicrocontrollerPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrocontrollerPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A3EF6E288395BF00CB303F /* MicrocontrollerPresentationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrocontrollerPresentationApp.swift; sourceTree = "<group>"; };
 		40A3EF70288395BF00CB303F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40A3EF72288395C200CB303F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A3EF75288395C200CB303F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		40A3EF77288395C200CB303F /* GuidedCodeEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuidedCodeEditor.entitlements; sourceTree = "<group>"; };
+		40A3EF77288395C200CB303F /* MicrocontrollerPresentation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MicrocontrollerPresentation.entitlements; sourceTree = "<group>"; };
+		40E9FF5528F798EA007DF79D /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		40E9FF5728F8547E007DF79D /* What.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,32 +47,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		401A70CD2884972900D892C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		401A70D22884B4A900D892C1 /* Frames */ = {
+			isa = PBXGroup;
+			children = (
+				401A70D32884B4BB00D892C1 /* Title.swift */,
+				40E9FF5728F8547E007DF79D /* What.swift */,
+				401A70D92884CCDB00D892C1 /* Why.swift */,
+				401A70D52884B53400D892C1 /* Which.swift */,
+				40E9FF5528F798EA007DF79D /* Resources.swift */,
+			);
+			path = Frames;
+			sourceTree = "<group>";
+		};
 		40A3EF62288395BF00CB303F = {
 			isa = PBXGroup;
 			children = (
-				40A3EF6D288395BF00CB303F /* GuidedCodeEditor */,
+				40A3EF6D288395BF00CB303F /* MicrocontrollerPresentation */,
 				40A3EF6C288395BF00CB303F /* Products */,
+				401A70CD2884972900D892C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		40A3EF6C288395BF00CB303F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40A3EF6B288395BF00CB303F /* GuidedCodeEditor.app */,
+				40A3EF6B288395BF00CB303F /* MicrocontrollerPresentation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		40A3EF6D288395BF00CB303F /* GuidedCodeEditor */ = {
+		40A3EF6D288395BF00CB303F /* MicrocontrollerPresentation */ = {
 			isa = PBXGroup;
 			children = (
-				40A3EF6E288395BF00CB303F /* GuidedCodeEditorApp.swift */,
+				40A3EF6E288395BF00CB303F /* MicrocontrollerPresentationApp.swift */,
+				401A70D02884B16000D892C1 /* ModelData.swift */,
 				40A3EF70288395BF00CB303F /* ContentView.swift */,
+				401A70D72884B54200D892C1 /* Utils.swift */,
+				401A70D22884B4A900D892C1 /* Frames */,
 				40A3EF72288395C200CB303F /* Assets.xcassets */,
-				40A3EF77288395C200CB303F /* GuidedCodeEditor.entitlements */,
+				40A3EF77288395C200CB303F /* MicrocontrollerPresentation.entitlements */,
 				40A3EF74288395C200CB303F /* Preview Content */,
 			);
-			path = GuidedCodeEditor;
+			path = MicrocontrollerPresentation;
 			sourceTree = "<group>";
 		};
 		40A3EF74288395C200CB303F /* Preview Content */ = {
@@ -72,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40A3EF6A288395BF00CB303F /* GuidedCodeEditor */ = {
+		40A3EF6A288395BF00CB303F /* MicrocontrollerPresentation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40A3EF7A288395C200CB303F /* Build configuration list for PBXNativeTarget "GuidedCodeEditor" */;
+			buildConfigurationList = 40A3EF7A288395C200CB303F /* Build configuration list for PBXNativeTarget "MicrocontrollerPresentation" */;
 			buildPhases = (
 				40A3EF67288395BF00CB303F /* Sources */,
 				40A3EF68288395BF00CB303F /* Frameworks */,
@@ -84,9 +121,11 @@
 			);
 			dependencies = (
 			);
-			name = GuidedCodeEditor;
+			name = MicrocontrollerPresentation;
+			packageProductDependencies = (
+			);
 			productName = GuidedCodeEditor;
-			productReference = 40A3EF6B288395BF00CB303F /* GuidedCodeEditor.app */;
+			productReference = 40A3EF6B288395BF00CB303F /* MicrocontrollerPresentation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,14 +136,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					40A3EF6A288395BF00CB303F = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 40A3EF66288395BF00CB303F /* Build configuration list for PBXProject "GuidedCodeEditor" */;
+			buildConfigurationList = 40A3EF66288395BF00CB303F /* Build configuration list for PBXProject "MicrocontrollerPresentation" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,11 +152,13 @@
 				Base,
 			);
 			mainGroup = 40A3EF62288395BF00CB303F;
+			packageReferences = (
+			);
 			productRefGroup = 40A3EF6C288395BF00CB303F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40A3EF6A288395BF00CB303F /* GuidedCodeEditor */,
+				40A3EF6A288395BF00CB303F /* MicrocontrollerPresentation */,
 			);
 		};
 /* End PBXProject section */
@@ -139,8 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401A70D42884B4BB00D892C1 /* Title.swift in Sources */,
 				40A3EF71288395BF00CB303F /* ContentView.swift in Sources */,
-				40A3EF6F288395BF00CB303F /* GuidedCodeEditorApp.swift in Sources */,
+				40E9FF5628F798EA007DF79D /* Resources.swift in Sources */,
+				40A3EF6F288395BF00CB303F /* MicrocontrollerPresentationApp.swift in Sources */,
+				40E9FF5828F8547E007DF79D /* What.swift in Sources */,
+				401A70D62884B53400D892C1 /* Which.swift in Sources */,
+				401A70D12884B16000D892C1 /* ModelData.swift in Sources */,
+				401A70D82884B54200D892C1 /* Utils.swift in Sources */,
+				401A70DA2884CCDB00D892C1 /* Why.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +228,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -240,6 +289,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -265,11 +315,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GuidedCodeEditor/GuidedCodeEditor.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MicrocontrollerPresentation/MicrocontrollerPresentation.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuidedCodeEditor/Preview Content\"";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MicrocontrollerPresentation/Preview Content\"";
 				DEVELOPMENT_TEAM = 84WPVNZ8GM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -280,8 +332,9 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AdinAck.GuidedCodeEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = AdinAck.MicrocontrollerPresentation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -292,11 +345,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GuidedCodeEditor/GuidedCodeEditor.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MicrocontrollerPresentation/MicrocontrollerPresentation.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuidedCodeEditor/Preview Content\"";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MicrocontrollerPresentation/Preview Content\"";
 				DEVELOPMENT_TEAM = 84WPVNZ8GM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -307,8 +362,9 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = AdinAck.GuidedCodeEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = AdinAck.MicrocontrollerPresentation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -317,7 +373,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40A3EF66288395BF00CB303F /* Build configuration list for PBXProject "GuidedCodeEditor" */ = {
+		40A3EF66288395BF00CB303F /* Build configuration list for PBXProject "MicrocontrollerPresentation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40A3EF78288395C200CB303F /* Debug */,
@@ -326,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40A3EF7A288395C200CB303F /* Build configuration list for PBXNativeTarget "GuidedCodeEditor" */ = {
+		40A3EF7A288395C200CB303F /* Build configuration list for PBXNativeTarget "MicrocontrollerPresentation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40A3EF7B288395C200CB303F /* Debug */,
